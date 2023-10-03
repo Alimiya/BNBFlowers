@@ -595,8 +595,39 @@ swaggerSpec.paths = {
             },
         },
     },
+    '/api/deliveries/pay/{id}': {
+        put: {
+            summary: 'Оплатить заказ по ID',
+            tags:["Deliveries"],
+            description: 'Оплатить заказ по указанному ID. Требуется аутентификация. ',
+            security: [{ bearerAuth: []}],
+            parameters: [
+                {
+                    in: 'path',
+                    name: 'id',
+                    required: true,
+                    schema: {
+                        type: 'string',
+                        example: '123456789qwerty'
+                    },
+                    description: 'ID заказов',
+                },
+            ],
+            responses: {
+                200: {
+                    description: 'Заказ успешно оплачен.',
+                },
+                404: {
+                    description: 'Заказ не найден.',
+                },
+                500: {
+                    description: 'Внутренняя ошибка сервера.',
+                },
+            },
+        },
+    },
     '/api/deliveries/send/{id}': {
-        get: {
+        put: {
             summary: 'Отправить заказ по ID',
             tags:["Deliveries"],
             description: 'Отправить заказ по указанному ID. Требуется аутентификация. ',
@@ -627,7 +658,7 @@ swaggerSpec.paths = {
         },
     },
     '/api/deliveries/complete/{id}': {
-        get: {
+        put: {
             summary: 'Завершить заказ по ID',
             tags:["Deliveries"],
             description: 'Завершить заказ по указанному ID. Требуется аутентификация. ',
