@@ -97,8 +97,8 @@ exports.deleteUserById = async (req, res) => {
 
 exports.getUserOrders = async (req, res) => {
     try {
-        const {userId} = req.params
-        const userOrders = await Delivery.find(userId)
+        const userId = req.params.id
+        const userOrders = await Delivery.find({userId})
 
         res.status(200).json(userOrders);
     } catch (error) {
