@@ -10,6 +10,7 @@ const provider = new ethers.JsonRpcProvider(process.env.INFURA_URL)
 const userRoute = require("./routes/userRoute")
 const deliveryRoute = require("./routes/deliveryRoute")
 const flowerRoute = require("./routes/flowerRoute")
+const authRoute = require("./routes/authRoute")
 
 const app = express()
 
@@ -19,6 +20,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/users', userRoute)
 app.use('/api/deliveries', deliveryRoute)
 app.use('/api/flowers', flowerRoute)
+app.use('/api/auth', authRoute)
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
