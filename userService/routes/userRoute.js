@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Controller = require('../controllers/userController')
-const verify = require('../middlewares/authVerify')
+const verify = require('../../middlewares/authVerify')
 
 router.get('/',verify, Controller.getAllUsers)
 router.get('/orders/:id',verify, Controller.getUserOrders)

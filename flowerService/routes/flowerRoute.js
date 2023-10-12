@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Controller = require('../controllers/flowerController')
-const verify = require('../middlewares/authVerify')
+const verify = require('../../middlewares/authVerify')
 
 router.get('/', verify, Controller.getAllFlowers)
 router.get('/:id', verify, Controller.getFlowerById)

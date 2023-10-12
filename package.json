@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "user": "node userService/index.js",
+    "flower": "node flowerService/index.js",
+    "delivery": "node deliveryService/index.js",
+    "auth": "node authService/index.js",
+    "proxy": "node apiGateway/gateway.js",
+    "dev": "concurrently \"npm run user\" \"npm run flower\" \"npm run delivery\" \"npm run auth\" \"npm run proxy\""
   },
   "keywords": [],
   "author": "",
@@ -15,6 +20,7 @@
     "dotenv": "^16.3.1",
     "ethers": "^6.7.1",
     "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.3",
     "swagger-jsdoc": "^6.2.8",

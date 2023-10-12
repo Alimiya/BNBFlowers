@@ -1,5 +1,5 @@
 const User = require('../models/userModel')
-const Delivery = require('../models/deliveryModel')
+const Delivery = require('../../deliveryService/models/deliveryModel')
 
 exports.getAllUsers = async (req, res) => {
     try {

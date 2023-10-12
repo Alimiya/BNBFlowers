@@ -1,28 +1,15 @@
 const express = require("express")
 const mongoose = require("mongoose")
-const ethers = require('ethers')
-const swaggerUi = require('swagger-ui-express')
-const swaggerSpec = require('./swagger/swagger')
-require("dotenv").config({ path: "./config/.env" })
+require("dotenv").config({path: "./flowerService/config/.env"})
 
-const provider = new ethers.JsonRpcProvider(process.env.INFURA_URL)
-
-const userRoute = require("./routes/userRoute")
-const deliveryRoute = require("./routes/deliveryRoute")
 const flowerRoute = require("./routes/flowerRoute")
-const authRoute = require("./routes/authRoute")
 
 const app = express()
 
 app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.urlencoded({extended: true}))
 
-app.use('/api/users', userRoute)
-app.use('/api/deliveries', deliveryRoute)
 app.use('/api/flowers', flowerRoute)
-app.use('/api/auth', authRoute)
-
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec))
 
 const start = async () => {
     try {
