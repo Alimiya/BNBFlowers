@@ -7,6 +7,7 @@ function authVerify (req, res, next) {
     try {
         const verified = jwt.verify(token.replace("Bearer ", ""), process.env.TOKEN_SECRET)
         req.user = JSON.stringify(verified)
+        res.status(200).json({token:token})
         next()
     } catch (error) {
         res.status(401).json({error:"Invalid token or session expired"})

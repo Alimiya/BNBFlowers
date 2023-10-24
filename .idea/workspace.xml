@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed94c3e2-44b5-445c-bbc2-f3bbd05d3f2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/server/middlewares/authVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/authVerify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tests/authTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/authTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tests/deliveryTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/deliveryTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tests/flowerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/flowerTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tests/userTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/userTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/.idea/flower.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/flower.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flower/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt/middlewares/authVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/middlewares/authVerify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt/swagger/swagger.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/swagger/swagger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nemeree/public/css/courses.css" beforeDir="false" afterPath="$PROJECT_DIR$/../nemeree/public/css/courses.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nemeree/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nemeree/views/auth/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nemeree/views/auth/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nemeree/views/auth/register.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Solidity Contract" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2W7v3suf9PxjUwHy5NZBNISxVVb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.14.2",
+    "javascript.nodejs.core.library.typings.version": "16.18.55",
+    "last_opened_file_path": "C:/Users/admin/WebstormProjects/jwt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "C:/Users/admin/WebstormProjects/blockchainapp/node_modules/mocha",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\userService" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\flowerService" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\deliveryService" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\deliveryService\routes" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\authService\routes" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\flowerService\routes" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\userService\routes" />
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp\userService\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Mocha.Flower Controller">
+    <configuration name="Auth Controller (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/server</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/server/tests/authTest.js</test-file>
+      <test-names>
+        <name value="Auth Controller" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Auth Middleware" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/server</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/server/tests/middlewareTest.js</test-file>
+      <test-names>
+        <name value="Auth Middleware" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Flower Controller" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/server</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/server/tests/flowerTest.js</test-file>
+      <test-names>
+        <name value="Flower Controller" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Flower Controller.GET /api/flowers.should get all flowers" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/server</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/server/tests/flowerTest.js</test-file>
+      <test-names>
+        <name value="Flower Controller" />
+        <name value="GET /api/flowers" />
+        <name value="should get all flowers" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="User Controller" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/server</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/server/tests/userTest.js</test-file>
+      <test-names>
+        <name value="User Controller" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.Flower Controller" />
+        <item itemvalue="Mocha.Flower Controller.GET /api/flowers.should get all flowers" />
+        <item itemvalue="Mocha.Auth Controller (1)" />
+        <item itemvalue="Mocha.User Controller" />
+        <item itemvalue="Mocha.Auth Middleware" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed94c3e2-44b5-445c-bbc2-f3bbd05d3f2a" name="Changes" comment="" />
+      <created>1696096236414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696096236414</updated>
+      <workItem from="1696096237567" duration="4028000" />
+      <workItem from="1696180055789" duration="2551000" />
+      <workItem from="1696189989991" duration="5841000" />
+      <workItem from="1696239143135" duration="1238000" />
+      <workItem from="1696305476163" duration="4968000" />
+      <workItem from="1697124932374" duration="2871000" />
+      <workItem from="1697141417900" duration="1548000" />
+      <workItem from="1697143774120" duration="50000" />
+      <workItem from="1697143830831" duration="29000" />
+      <workItem from="1697194278214" duration="4000" />
+      <workItem from="1697793344151" duration="2391000" />
+      <workItem from="1698169177146" duration="2716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/tests/middlewareTest.js</url>
+          <line>15</line>
+          <option name="temporary" value="true" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
