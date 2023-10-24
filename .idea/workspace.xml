@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed94c3e2-44b5-445c-bbc2-f3bbd05d3f2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/server/middlewares/authVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/authVerify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tests/authTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/authTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tests/deliveryTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/deliveryTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tests/flowerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/flowerTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/tests/userTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/tests/userTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flower/.idea/flower.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/flower.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flower/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flower/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/vcs.xml" afterDir="false" />
@@ -57,7 +55,7 @@
     "WebServerToolWindowFactoryState": "false",
     "javascript.nodejs.core.library.configured.version": "16.14.2",
     "javascript.nodejs.core.library.typings.version": "16.18.55",
-    "last_opened_file_path": "C:/Users/admin/WebstormProjects/jwt",
+    "last_opened_file_path": "C:/Users/admin/WebstormProjects/blockchainapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,10 +68,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\blockchainapp" />
       <recent name="C:\Users\admin\WebstormProjects\blockchainapp\userService" />
       <recent name="C:\Users\admin\WebstormProjects\blockchainapp\flowerService" />
       <recent name="C:\Users\admin\WebstormProjects\blockchainapp\deliveryService" />
-      <recent name="C:\Users\admin\WebstormProjects\blockchainapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\blockchainapp\deliveryService\routes" />
@@ -83,7 +81,21 @@
       <recent name="C:\Users\admin\WebstormProjects\blockchainapp\userService\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.Flower Controller">
+  <component name="RunManager" selected="npm.dev">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="Auth Controller (1)" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -96,21 +108,6 @@
       <test-file>$PROJECT_DIR$/server/tests/authTest.js</test-file>
       <test-names>
         <name value="Auth Controller" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Auth Middleware" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/server</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/server/tests/middlewareTest.js</test-file>
-      <test-names>
-        <name value="Auth Middleware" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -163,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="Mocha.Flower Controller" />
         <item itemvalue="Mocha.Flower Controller.GET /api/flowers.should get all flowers" />
         <item itemvalue="Mocha.Auth Controller (1)" />
         <item itemvalue="Mocha.User Controller" />
-        <item itemvalue="Mocha.Auth Middleware" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +187,7 @@
       <workItem from="1697143830831" duration="29000" />
       <workItem from="1697194278214" duration="4000" />
       <workItem from="1697793344151" duration="2391000" />
-      <workItem from="1698169177146" duration="2716000" />
+      <workItem from="1698169177146" duration="4850000" />
     </task>
     <servers />
   </component>
