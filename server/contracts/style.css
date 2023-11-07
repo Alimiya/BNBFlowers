@@ -1,0 +1,9 @@
+ .centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-container > * {
+    margin: 0 50px; /* Adjust the margin value to set the desired gap (100px in this case) */
+}
