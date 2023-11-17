@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed94c3e2-44b5-445c-bbc2-f3bbd05d3f2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flower/.idea/flower.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/flower.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flower/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flower/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flower/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../flower/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../flower/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/views/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt/middlewares/authVerify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/middlewares/authVerify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt/swagger/swagger.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt/swagger/swagger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nemeree/public/css/courses.css" beforeDir="false" afterPath="$PROJECT_DIR$/../nemeree/public/css/courses.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nemeree/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nemeree/views/auth/login.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nemeree/views/auth/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../nemeree/views/auth/register.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,25 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.14.2",
-    "javascript.nodejs.core.library.typings.version": "16.18.55",
-    "last_opened_file_path": "C:/Users/admin/WebstormProjects/blockchainapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.mocha.mocha_node_package_dir": "C:/Users/admin/WebstormProjects/blockchainapp/node_modules/mocha",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.14.2&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.55&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/WebstormProjects/mockup&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;C:/Users/admin/WebstormProjects/blockchainapp/node_modules/mocha&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\blockchainapp" />
@@ -83,7 +70,9 @@
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -187,12 +176,27 @@
       <workItem from="1697143830831" duration="29000" />
       <workItem from="1697194278214" duration="4000" />
       <workItem from="1697793344151" duration="2391000" />
-      <workItem from="1698169177146" duration="4850000" />
+      <workItem from="1698169177146" duration="5307000" />
+      <workItem from="1698419978908" duration="863000" />
+      <workItem from="1698460452732" duration="887000" />
+      <workItem from="1698670657677" duration="1513000" />
+      <workItem from="1699328899511" duration="868000" />
+      <workItem from="1699334934382" duration="26000" />
+      <workItem from="1699335117504" duration="53000" />
+      <workItem from="1699335575413" duration="622000" />
+      <workItem from="1699338182603" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:react" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:tailwindcss" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:ejs" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:next" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:postcss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
